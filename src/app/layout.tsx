@@ -30,7 +30,7 @@ export default function RootLayout({
          >
             {children}
             <Toaster
-               duration={500}
+               duration={1000}
                position="top-right"
             />
          </body>

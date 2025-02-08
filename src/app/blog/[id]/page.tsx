@@ -1,7 +1,6 @@
 import type { Blog } from "@/app/api/blogs-list/route";
 import BlogPage from "@/components/BlogPage";
-import axios, { AxiosError } from "axios";
-import { Suspense } from "react";
+import { AxiosError } from "axios";
 
 export default async function page({
    params,
@@ -18,22 +17,21 @@ export default async function page({
       readTime: "",
    };
    try {
-      const { data } = await axios.get(
-         `${process.env.NEXT_PUBLIC_API_URL}/api/blog/${id}`
+      const data = await fetch(
+         `${process.env.NEXT_PUBLIC_API_URL}/api/blog/${id}`,
+         { next: { revalidate: 100 } }
       );
-      blog = data;
+      blog = await data.json();
    } catch (error) {
       if (error instanceof AxiosError) {
-         console.log(error.response?.data.error);
+         throw new Error(error.response?.data.error);
       }
    }
 
    return (
-      <Suspense fallback={<div>Loading...</div>}>
-         <div>
-            <h1>Blog Page</h1>
-            <BlogPage blog={blog} />
-         </div>
-      </Suspense>
+      <div>
+         <h1>Blog Page</h1>
+         <BlogPage blog={blog} />
+      </div>
    );
 }

@@ -8,7 +8,14 @@ export async function GET(
    { params }: { params: Promise<{ id: string }> }
 ) {
    try {
-      setTimeout(() => console.log("aah"), 1000);
+      await new Promise((resolve) => {
+         setTimeout(() => {
+            resolve(
+               "This is a fake delay to simulate an async request to the server"
+            );
+         }, 1000);
+      });
+
       const id = (await params).id;
       const filePath = path.join(process.cwd(), "public/data/blogs.json");
       const blogs = JSON.parse(fs.readFileSync(filePath, "utf-8"));

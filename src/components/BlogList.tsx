@@ -4,6 +4,7 @@ import axios, { AxiosError } from "axios";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const BlogList = () => {
    const [blogs, setBlogs] = useState<Blog[]>();
@@ -34,7 +35,9 @@ const BlogList = () => {
                   <h2>{blog.title}</h2>
                   <p>{blog.excerpt}</p>
                   <p>{blog.date}</p>
-                  <Button>Read Now</Button>
+                  <Link href={`/blog/${blog.id}`}>
+                     <Button>Read Now</Button>
+                  </Link>
                </div>
             ))}
          </div>

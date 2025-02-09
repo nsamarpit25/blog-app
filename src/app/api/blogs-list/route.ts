@@ -9,6 +9,7 @@ export interface Blog {
    date: string;
    content: string;
    readTime: string;
+   imageUrl: string;
 }
 
 export async function GET() {
@@ -21,6 +22,7 @@ export async function GET() {
             title: blog.title,
             excerpt: blog.excerpt,
             date: blog.date,
+            imageUrl: blog.imageUrl,
          };
       });
       return NextResponse.json({ blogs_list });

@@ -5,7 +5,8 @@
       "excerpt": "Learn the fundamentals of Next.js development",
       "content": "Next.js is a powerful React framework that enables server-side rendering, static site generation, and API routes. It simplifies the development of fast, scalable, and SEO-friendly web applications. In this article, we'll explore the key features of Next.js and how to set up a basic project.",
       "date": "2024-03-15",
-      "readTime": "5 min"
+      "readTime": "5 min",
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee"
    },
    {
       "id": 2,
@@ -13,7 +14,8 @@
       "excerpt": "Exploring CSS modules and Tailwind",
       "content": "Styling in modern applications has evolved with approaches like CSS Modules, Tailwind CSS, and styled-components. Each technique has its benefits, from modular styles to utility-first design. This guide will help you choose the best styling method for your project.",
       "date": "2024-03-14",
-      "readTime": "8 min"
+      "readTime": "8 min",
+      "imageUrl": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2"
    },
    {
       "id": 3,
@@ -21,7 +23,8 @@
       "excerpt": "A deep dive into useState, useEffect, and beyond",
       "content": "React Hooks provide a way to use state and lifecycle features without writing class components. This article covers common hooks like useState, useEffect, and useContext, along with advanced hooks for performance optimization.",
       "date": "2024-03-12",
-      "readTime": "10 min"
+      "readTime": "10 min",
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee"
    },
    {
       "id": 4,
@@ -29,7 +32,8 @@
       "excerpt": "A fundamental concept for JS developers",
       "content": "Closures allow functions to retain access to variables from their outer scope even after execution. They are essential for creating private variables and callback functions. This article explains closures with real-world examples.",
       "date": "2024-03-10",
-      "readTime": "7 min"
+      "readTime": "7 min",
+      "imageUrl": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2"
    },
    {
       "id": 5,
@@ -37,7 +41,8 @@
       "excerpt": "Best practices for a fast-loading website",
       "content": "Web performance affects user experience and SEO. Learn optimization techniques like lazy loading, image compression, caching strategies, and reducing render-blocking resources to improve website speed.",
       "date": "2024-03-08",
-      "readTime": "6 min"
+      "readTime": "6 min",
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee"
    },
    {
       "id": 6,
@@ -45,7 +50,8 @@
       "excerpt": "Why TypeScript matters for modern JavaScript",
       "content": "TypeScript is a superset of JavaScript that adds static typing, making code more maintainable and less error-prone. This article covers TypeScript basics, including types, interfaces, and compilation.",
       "date": "2024-03-06",
-      "readTime": "9 min"
+      "readTime": "9 min",
+      "imageUrl": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2"
    },
    {
       "id": 7,
@@ -53,7 +59,8 @@
       "excerpt": "A guide to creating RESTful APIs",
       "content": "Express.js is a minimalist web framework for Node.js that simplifies API development. In this guide, we'll build a RESTful API, handle routes, and connect to a database using MongoDB.",
       "date": "2024-03-04",
-      "readTime": "12 min"
+      "readTime": "12 min",
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee"
    },
    {
       "id": 8,
@@ -61,7 +68,8 @@
       "excerpt": "Master complex Git operations and team collaboration",
       "content": "Understanding advanced Git concepts is crucial for modern development teams. Learn about rebasing, cherry-picking, managing multiple remotes, and implementing effective branching strategies for larger projects.",
       "date": "2024-03-02",
-      "readTime": "15 min"
+      "readTime": "15 min",
+      "imageUrl": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2"
    },
    {
       "id": 9,
@@ -69,7 +77,8 @@
       "excerpt": "Containerization made simple",
       "content": "Docker containers provide consistent development environments and simplified deployment. This guide covers Docker basics, creating Dockerfiles, managing containers, and implementing Docker Compose for multi-container applications.",
       "date": "2024-02-28",
-      "readTime": "11 min"
+      "readTime": "11 min",
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee"
    },
    {
       "id": 10,
@@ -77,7 +86,8 @@
       "excerpt": "Compare Redux, Context API, and Zustand",
       "content": "State management is crucial in modern web applications. This article compares different approaches including Redux, React Context API, and newer solutions like Zustand, helping you choose the right tool for your needs.",
       "date": "2024-02-25",
-      "readTime": "13 min"
+      "readTime": "13 min",
+      "imageUrl": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2"
    },
    {
       "id": 11,
@@ -85,7 +95,8 @@
       "excerpt": "Protecting your applications from common threats",
       "content": "Security is paramount in web development. Learn about XSS prevention, CSRF protection, secure authentication, input validation, and other essential security measures to protect your applications.",
       "date": "2024-02-22",
-      "readTime": "14 min"
+      "readTime": "14 min",
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee"
    },
    {
       "id": 12,
@@ -93,6 +104,7 @@
       "excerpt": "Building scalable distributed systems",
       "content": "Microservices architecture enables building large applications as suites of small services. Explore patterns, challenges, and best practices for implementing microservices, including service discovery and API gateways.",
       "date": "2024-02-20",
-      "readTime": "16 min"
+      "readTime": "16 min",
+      "imageUrl": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2"
    }
 ]
